@@ -26,17 +26,17 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local MainTab = Window:CreateTab("Home :D", nil) -- Title, Image
-local MainSection = Tab:CreateSection("universal scripts")
+local Tab = Window:CreateTab("Home :D", nil) -- Title, Image
+local Section = Tab:CreateSection("universal scripts")
 
 local Button = Tab:CreateButton({
-   Name = "Button Example",
+   Name = "infinite yield",
    Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
    end,
 })
    
-local Section = MainTab:CreateSection("More coming soon! (Maybe)")
+local Section = Tab:CreateSection("More coming soon! (Maybe)")
 
 local Tab = Window:CreateTab("Keyless🔥", nil) -- Title, Image
 
