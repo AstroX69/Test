@@ -1,0 +1,83 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+
+local Window = OrionLib:MakeWindow({Name = "Blox hub", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "Credits!",
+	Content = "Astro (all me I did this all alone :sad: )",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+OrionLib:MakeNotification({
+	Name = "purpose...",
+	Content = "I got annoyed of scrolling 24/7 for good scripts",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+local Tab = Window:MakeTab({
+	Name = "Main tab",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddParagraph("infomation","ALL CREDITS BELONG TO THE SCRIPT OWNERS I ONLY PROVIDED IN A SCRIPT.")
+
+Tab:AddParagraph("More infomation","Im not sure if I will continue this so there is a chance that I will disconntinue or probably give it to people to continue the generation of blox hub.(if I actually hire)")
+
+Tab:AddParagraph("Discord infomation","A Discord will be added soon...")
+
+Tab:AddParagraph("Script information","More tabs and scripts will be added soon...")
+
+local Tab = Window:MakeTab({
+	Name = "universal scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "infinite yield",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "keyless",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "HOHO (keyless version) (not offical)",
+	Callback = function()
+      		<?xml version="1.0" encoding="UTF-8"?><Error><Code>AccessDenied</Code><Message></Message><BucketName>rscripts</BucketName><RequestId>tx00000aaf8a26da6ffb8b6-0065df0aa4-f9cad1-default</RequestId><HostId>f9cad1-default-default</HostId></Error>
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Neva hub",
+	Callback = function()
+      		loadstring(game:HttpGet(âhttps://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2â))()
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Coming soon!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Coming soon!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+OrionLib:Init()
